@@ -387,7 +387,6 @@ class Specs(SpecSet):
     scsi = RegistryPoint()
     secure = RegistryPoint(filterable=True)
     selinux_config = RegistryPoint()
-    semid = RegistryPoint()
     sestatus = RegistryPoint()
     smartctl = RegistryPoint(multi_output=True)
     smartpdc_settings = RegistryPoint(filterable=True)
