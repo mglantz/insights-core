@@ -4,5 +4,6 @@ six
 requests
 pyOpenSSL
 importlib
-Jinja2==2.9.6
+Jinja2==2.11.3
 nbsphinx==0.3.1
+mistune>=2.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
