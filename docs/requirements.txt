@@ -6,3 +6,4 @@ pyOpenSSL
 importlib
 Jinja2==2.9.6
 nbsphinx==0.3.1
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
